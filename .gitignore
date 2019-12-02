@@ -1,4 +1,5 @@
 notes.txt
+node_modules
 
 
 # Created by https://www.gitignore.io/api/osx,visualstudiocode
@@ -44,3 +45,4 @@ Temporary Items
 .history
 
 # End of https://www.gitignore.io/api/osx,visualstudiocode
+node_modules
