@@ -7,6 +7,8 @@ import { NavComponent } from './templates/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
 import { ContatoComponent } from './pages/contato/contato.component';
+import { HistoriaComponent } from './pages/historia/historia.component';
+import { HistoriaService } from './services/historia.services';
 
 @NgModule({
   declarations: [
@@ -14,13 +16,16 @@ import { ContatoComponent } from './pages/contato/contato.component';
     NavComponent,
     HomeComponent,
     SobreComponent,
-    ContatoComponent
+    ContatoComponent,
+    HistoriaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    HistoriaService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
