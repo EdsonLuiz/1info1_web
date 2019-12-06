@@ -9,13 +9,14 @@ import { EntendaComponent } from './pages/entenda/entenda.component';
 
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'home' },
+  { path: '', pathMatch: 'full', redirectTo: '/home' },
   { path: 'home', component: HomeComponent },
   { path: 'sobre', component: SobreComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'historia', component: HistoriaComponent },
   { path: 'veiculos', component: VeiculosComponent },
-  { path: 'entenda', component: EntendaComponent }
+  { path: 'entenda', component: EntendaComponent },
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
