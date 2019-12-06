@@ -10,6 +10,7 @@ import { ContatoComponent } from './pages/contato/contato.component';
 import { HistoriaComponent } from './pages/historia/historia.component';
 import { HistoriaService } from './services/historia.services';
 import { VeiculosComponent } from './pages/veiculos/veiculos.component';
+import { EntendaComponent } from './pages/entenda/entenda.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { VeiculosComponent } from './pages/veiculos/veiculos.component';
     SobreComponent,
     ContatoComponent,
     HistoriaComponent,
-    VeiculosComponent
+    VeiculosComponent,
+    EntendaComponent
   ],
   imports: [
     BrowserModule,
