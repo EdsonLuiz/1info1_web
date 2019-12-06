@@ -1,0 +1,11 @@
+<div class="container my-4">
+  <div class="card-columns">
+      <div class="card text-white bg-dark" *ngFor="let veiculo of _veiculos">
+          <img [src]="veiculo.imgUrl" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">{{veiculo.title}}</h4>
+          <p class="card-text">{{veiculo.content}}</p>
+        </div>
+      </div>
+    </div>
+</div>
